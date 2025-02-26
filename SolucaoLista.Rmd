@@ -1,11 +1,8 @@
 ---
 title: "Solução Lista 01"
 author: |
-        | Nome: Fulano de Tal
-        | E-mail: fdt@aluno.ufabc.edu.br
-        | Nome: Fulano de Tal
-        | E-mail: fdt@aluno.ufabc.edu.br
-        | (Não é preciso informar os RAs)
+        | Nome: Caio Eduardo Curcio Valcazara
+        | E-mail: caio.valcazara@aluno.ufabc.edu.br
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: pdf_document
 ---
@@ -21,11 +18,50 @@ knitr::opts_chunk$set(echo = T,
 options(width =70)
 ```
 
-## Exercício 01
+# Exercício 01:
+## Faça uma pesquisa sobre aplicações práticas de aprendizado de máquinas e descreva aplicações de cada um dos problemas abaixo, incluindo a descrição dos vetores de características, rótulos ou respostas quando apropriado para cada um dos problemas:
+
+## a) Problema de classificação.
+
+##  Na classificação, o modelo prevê uma categoria ou classe baseada nos dados de entrada. Os rótulos são discretos. 
+
+##  Uma aplicação prática do ml seria na área de cybersegurança com detecção de spams em email ou phishing.
+
+##  Vetores Característica: Palavras-chave ("promoção", "grátis", "clique aqui", "limitado"); Quantidade de anexo; Remetente; Formato do Email; Frequência de links.
+
+##  Rótulos ou classes de Saída: Spam (1); Não Spam(0)
+
+## b) Problema de regressão.
+
+##  Na regressão, o modelo prevê um valor numérico contínuo baseado nos dados de entrada. 
+
+##    Uma aplicação prática para esse problema é da estimativa de life cycle de uma máquina ou equipamento eletrônicos como computadores e servidores.
+
+##  Vetores de Característica: Idade do dispositivo; Número de horas utilizado por dia; Temperatura mpedia da CPU e GPU; Taxa de uso dos componentes (disco, memória RAM); Histórico de sunstituição de componentes.
+
+##  Respostas: Tempo de Vida restante (em meses ou ano).
 
 
-## Exercício 02
+## c) Problema de Agrupamento
 
+#   No agrupamento, o modelo identifica padrões ou grupos dentro dos dados sem rótulos prévios.
+
+##  Uma aplcaição desse problema está no ramo bancário com detecção de padrões incomuns em um conjunto de dados para identificar anomalias em transações fraudulentas.
+
+##  Vetores de Característica: Valores da transação; Localização geográfica; Horário da transação; Tipo de compra; Frequência de compra.
+
+##  
+
+
+```{r}
+
+```
+
+
+# Exercício 02: Descreva com suas próprias palavras o que é a “maldição da dimensionalidade”.
+
+
+##
 
 ## Exercício 03
 
